@@ -1,1 +1,35 @@
-css
+/* css goes here for mobile web comics */
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: grey;
+	width: 100%;
+}
+
+#page {
+	background-color: blue;
+	margin: 36px auto auto;
+	width: 90%;
+}
+
+.blog {
+	background-color: red;
+	margin: 0 auto 53px;
+	width: 93.75%;
+}
+
+.blog .comic {
+	background-color: green;
+	margin: 1em auto auto;
+	width: 100%;
+}
+
+.blog .footernav {
+	background-color: yellow;
+	width: 100%;
+}
+/*THIS IS THE COMIC FRAMES*/
+#frame1 {
+	outline-color: red 5px;
+	width: 25%;
+}
