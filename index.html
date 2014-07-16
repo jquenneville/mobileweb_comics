@@ -1,28 +1,65 @@
 <!DOCTYPE html>
-<!--mobile webcomcis -->
+<!--mobile webcomics -->
 <html>
 <head>
 	<meta charset="UTF-8">
 	<title>mobile web comics responsive</title>
 	<link rel="stylesheet" type="text/css" href="reset.css"/>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Abel|Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 </head>
 <!--end of head-->
 <body>
-	<div id="page">
+<!--actually, do it like this. and code the mobile one FIRST. then what things are just for mobile, make it a media query. -->
+
+	<wrapper>
+		<header><h1>This is a header</h1></header>
+		<div class="comic">one big box
+			<div class="box">box1
+				<img src="imgs/panel1.jpg" alt="" />
+			</div>
+			<div class="box">box2
+				<img src="imgs/panel2.jpg" alt="" />
+			</div>
+			<div class="box">box3
+				<img src="imgs/panel3.jpg" alt="" />
+			</div>
+			<div class="box">box4
+				<img src="imgs/panel4.jpg" alt="" />
+			</div>
+		</div>
+		<footer>ululululululboxes with ul inside</footer>
+		<words></words>
+		<copyright></copyright>
+		<upbutton></upbutton>
+	</wrapper>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!--OLD CODE THAT DIDNT REALLY WORK< TRY AGAIN-->
+<!--	<div id="page">
 		<div class="blog section">
 			<h1 class="header">Recently in <a href="#">The Bot Blog</a></h1>
 			<div class="comic">c...
-				<div id="frame1">f1</div>
-				<div id="frame2">f2</div>
-				<div id="frame3">f3</div>
-				<div id="frame4">f4</div>
-				<div id="frame5">f5</div>
-			</div><!-- /end .comic -->
+			<figure class="img-container">f1<img src="imgs/weetly.png" alt="img" /></figure>
+			<figure class="img-container">f1<img src="imgs/charbat.png" alt="img" /></figure>
+			<figure class="img-container">f1<img src="imgs/nyanan.png" alt="img" /></figure>
+			<figure class="img-container">f1<img src="imgs/poryrow.png" alt="img" /></figure>
+			<figure class="img-container">f1<img src="imgs/stardrio.png" alt="img" /></figure>
+			</div><!-- /end .comic --*>
 			<div class="footernav"> fn...
-			</div><!-- /end .footernav -->
-		</div><!-- /end .blog.section -->
-	</div><!-- /end #page -->
-	
-</body>
-</html>
+			</div><!-- /end .footernav --*>
+		</div><!-- /end .blog.section --*>
+	</div><!-- /end #page --*>
+	-->

@@ -1,6 +1,75 @@
 /* css goes here for mobile web comics */
 @charset "UTF-8";
 /* CSS Document */
+//font-family: 'Abel', sans-serif;
+//font-family: 'Gloria Hallelujah', cursive;
+
+/*GLOBAL*/
+body {
+	max-width: 100%;
+	font-size: 100%; //also include this line in any media queries you do
+}
+
+wrapper {
+	max-width: 100%;
+}
+
+h1 {
+font-family: 'Gloria Hallelujah', cursive;
+//font-weight: normal;
+font-size: 2.75em;
+text-align: center;
+color: #fff;
+width: 60%; //234.49 / 350.53 66.895843%  //this one didnt need to be max
+border: 5px solid red;
+margin: auto auto; //but it was missing this!!!! use chroms inspect always!!!
+}
+
+.box .img {
+	max-width: 100%;  //i made it shrink properly, then it stopped working
+}
+
+img{
+	float: left;  //then on comic on desktop max-width=like 80% to constrain
+}
+
+/*SPECIFIC*/
+header {
+	max-width: 100%;  /*this needed to be max */
+	padding: 1em 1em 1em 1em;
+	background-color: blue;
+}
+
+.comic {
+	max-width: 100%;
+	height: auto;
+	padding: 1em;
+	background-color: lime;
+}
+
+.box{
+	width: 100%;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*JUST START AGAIN
+.blog, .comic, .footernav, {border: 5px solid #999;}
+
+
 body {
 	background-color: grey;
 	width: 100%;
@@ -22,14 +91,16 @@ body {
 	background-color: green;
 	margin: 1em auto auto;
 	width: 100%;
+	height: auto;
 }
 
 .blog .footernav {
 	background-color: yellow;
 	width: 100%;
 }
-/*THIS IS THE COMIC FRAMES*/
-#frame1 {
-	outline-color: red 5px;
-	width: 25%;
-}
+/*THIS IS THE COMIC FRAMES*!/
+
+figure.img-container{
+	float: left;
+	width: 100px;
+}*/
