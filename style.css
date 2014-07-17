@@ -4,16 +4,16 @@
 //font-family: 'Abel', sans-serif;
 //font-family: 'Gloria Hallelujah', cursive;
 
-/*GLOBAL*/
+/*-------------TOP AREA----------------*/
 body {
 	max-width: 100%;
 	font-size: 100%; //also include this line in any media queries you do
 }
-
+/*------------------------*/
 wrapper {
 	max-width: 100%;
 }
-
+/*------------------------*/
 h1 {
 font-family: 'Gloria Hallelujah', cursive;
 //font-weight: normal;
@@ -24,16 +24,61 @@ width: 60%; //234.49 / 350.53 66.895843%  //this one didnt need to be max
 border: 5px solid red;
 margin: auto auto; //but it was missing this!!!! use chroms inspect always!!!
 }
+/*------------------------*/
 
-.box .img {
-	max-width: 100%;  //i made it shrink properly, then it stopped working
+
+/*-------------COMIC AREA----------------*/
+
+
+
+
+/*-------------FOOTER AREA----------------*/
+/*-------------BLOG AREA----------------*/
+/*-------------COPYRIGHT AREA----------------*/
+
+
+
+
+
+***note things as  //mobile width:whatever;  to note that i have to chang eit for desktop //desktop: width; 
+
+
+h2 { 
+	font: 2em 'Gloria Hallelujah', cursive;
+	//font-weight: normal;
+	/*might change to ul later... not sur eon the sematics*/
+	text-align: center;
+	color: #fff;
+	width: 60%; //234.49 / 350.53 66.895843%  //this one didnt need to be max
+	border: 5px solid red;
+	margin: auto auto; //but it was missing this!!!! use chroms inspect always!!!	
 }
 
-img{
+a{
+	text-decoration: none;
+	color: black;	
+	max-width: 100%;
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+}
+
+ .box {
+	max-width: 100%;
+	min-height: 5em;
+	background-color: purple;
+	border: 1px solid red;
+	padding-bottom: 0.5em;
+}
+
+/*img{
 	float: left;  //then on comic on desktop max-width=like 80% to constrain
-}
+	max-width: 100%;
+}*/
 
-/*SPECIFIC*/
+
+/*----------------SPECIFIC----------------*/
 header {
 	max-width: 100%;  /*this needed to be max */
 	padding: 1em 1em 1em 1em;
@@ -43,64 +88,52 @@ header {
 .comic {
 	max-width: 100%;
 	height: auto;
-	padding: 1em;
+	padding: 2em;
 	background-color: lime;
 }
 
-.box{
-	width: 100%;
-	background-color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*JUST START AGAIN
-.blog, .comic, .footernav, {border: 5px solid #999;}
-
-
-body {
-	background-color: grey;
-	width: 100%;
-}
-
-#page {
-	background-color: blue;
-	margin: 36px auto auto;
-	width: 90%;
-}
-
-.blog {
-	background-color: red;
-	margin: 0 auto 53px;
-	width: 93.75%;
-}
-
-.blog .comic {
-	background-color: green;
-	margin: 1em auto auto;
-	width: 100%;
+/*footer {
+	max-width: 100%;
 	height: auto;
+	padding: 1em;
+	background-color: red;
+}*/
+
+footer ul li{
+	display: inline;
 }
 
-.blog .footernav {
-	background-color: yellow;
-	width: 100%;
-}
-/*THIS IS THE COMIC FRAMES*!/
+footer ul {
+	margin:
+	padding
+	font fami
+	font size
+	list-style-type: none;
+	margin-bottom: ;
+}\
+
+//THIS IS THE COMIC FRAMES
 
 figure.img-container{
+	//float: left; onyl for media query
+	max-width: 100%;
+	height: auto;
+	padding: 1em;
+}
+
+.buttonbox { 
+	width: 46%; 
+	border: 1px solid blue;
 	float: left;
-	width: 100px;
-}*/
+	//it needs a clear or something for it to sit beside each other
+	padding-right: 1em;
+	padding-left: 1em;
+	//it becomes 50 50 50 50 in mobile...or 25 25 25 25 in desktop
+}
+
+
+media quesries
+footer ull {
+	float: none; //for mobile mode
+}
+
