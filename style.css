@@ -77,32 +77,70 @@ footer ul {
 	list-style-type: none;
 	margin-bottom: 0px;
 	border: 1px solid #333;
+	
+	display: block;
+	text-align:center;
 }
 
 footer ul li{
-	display: inline;
 	border: 1px solid #333;	
-	text-align: center;
+	//text-align: center;
+	display: inline-block;
+	padding-bottom: 0.5em;
+	background-color: blue;
 }
-/*h2 { 
-	font: 2em 'Gloria Hallelujah', cursive;
-	//font-weight: normal;
-	/*might change to ul later... not sur eon the sematics*!/
-	text-align: center;
-	color: #fff;
-	width: 60%; //234.49 / 350.53 66.895843%  //this one didnt need to be max
-	border: 5px solid red;
-	margin: auto auto; //but it was missing this!!!! use chroms inspect always!!!	
-}*/
 
 /*-------------END OF FOOTER AREA----------------*/
 /*-------------BLOG AREA----------------*/
 p {
 	font-family: 'Abel', sans-serif;
+	font-size: 100%;
+	text-align: left;
+	color: black;
+	width: 100%;
+	margin: auto auto;
+}
+.blogEntry {
+	text-align: left;
+	max-width: 100%;
+	height: auto;
+	padding-top: 1em;
+	padding-right: 2em;
+	padding-left: 2em;
+	//needs a block or something with the text	
+}
+h2 {
+	font-family: 'Abel', sans-serif;
+	//font-weight: normal;
+	font-size: 1.5em;
+	text-align: left;
+	color: black;
+	width: 100%;
+	margin: auto auto;
+}
+small {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	color: #ababab;
+	text-align: right;
+	display: block;
 }
 /*-------------COPYRIGHT AREA----------------*/
+#copyright { 
+	color: #19949b; 
+	font-family: sans-serif;  
+	font-size: 70%; 
+	margin: 30px;
+	text-align: center;
+}
+#copyright  a { 
+	text-decoration: none; 
+	color: #53e3e9;
+}
 /*------------------------*/
 /*-------------END OF COPYRIGHT AREA----------------*/
+
+
 
 
 
